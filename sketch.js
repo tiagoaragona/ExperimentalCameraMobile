@@ -15,7 +15,7 @@ let returnStartTime = 0;
 
 function setup() {
   let canvasWidth = windowWidth;
-  let canvasHeight = 700;
+  let canvasHeight = windowHeight;
 
   let cnv = createCanvas(canvasWidth, canvasHeight);
   cnv.touchStarted(touchStartedHandler);
